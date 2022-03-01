@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<p><font color="darkviolet" face="trebuchet" size="2"><b>This font color is Dark Violet.</b></font>
+		<font color="#FF1493" face="comicsans" size="4"><u>But this font color is Deep Pink.</u></font>
+		<font color="darkturquoise" face="verdana" size="6"><i>And, finally, this is Dark Turquoise.</i></font>
+		<script src="Basic_JavaScript_1.js"></script></p>
+		<p>
+			<img sc= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Colouring_pencils.jpg/800px-Colouring_pencils.jpg" alt= "Colored pencils arranged in rainbow order.">
+		</p>
+	</body>
+</html>

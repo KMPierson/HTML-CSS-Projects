@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Panther Cheer</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	
+		<!--NAV-->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>Home</li></a>
+					<a href="#gallery" id="link"><li>Gallery</li></a>
+					<a href="#signup" id="link"><li>Sign Up</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--End NAV-->
+		
+		<!--Home-->
+		<div id="home">
+			<div>
+				<div>
+					<span>Stockbridge Panther Cheer</span>
+				</div>
+			</div>
+		</div>
+		<!--End Home-->
+		
+		<!--Gallery-->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<div>
+				
+					<!--Photo1 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_1.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>So much fun at practice!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo 2Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_2.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>Fired up during the Homecoming '21 Parade!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo3 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_3.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>Game Stunts!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo4 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_4.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>Go, Panthers, GO!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo5 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_5.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>Panther Power!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo6 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_6.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>K2 Cheerleader has best day ever!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo7 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_7.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>Double Gold at Competition!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo8 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_8.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>K2 had the biggest Homecoming Float!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					<!--Photo9 Container-->
+					<div>
+						<div>
+							<img src="./images/Thumbs/thumbnail_9.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p><em>Go, Panthers, GO!</em></p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container-->
+					
+				</div>
+			</div>
+		</section>
+		<!--End Gallery-->
+		
+		<!--Sign Up-->
+		<section>
+			<div id="signup">
+				<div>
+					<h1>Sign Up!</h1>
+					<div>
+						<h2><span>Join the Team, </span>
+						<br>Join the Fun!
+						</h2>
+						<p>
+							Please provide us with your cheerleader's information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="Grade">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Join">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Sign Up-->
+		
+		<!--Footer-->
+		<div>
+			<a href="https://www.facebook.com/stockbridgetdclub/" target="new">Stockbridge TD Club</a> &copy;2010
+		</div>
+		<!--End Footer-->
+		
+	</body>
+</html>
