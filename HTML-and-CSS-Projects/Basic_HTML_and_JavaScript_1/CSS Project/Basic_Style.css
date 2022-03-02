@@ -13,7 +13,7 @@ h1 {
     height: 450px;
     background-color:#faebd7 ;
     border:2px solid black ;
-    border-radius: 54;
+    border-radius: 5%;
 }
 
 /*------------------------------------------------------------
@@ -28,7 +28,7 @@ h1 {
     height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border-radius: 245;
+    border-radius: 24%;
     cursor: pointer;
     transition: transform .5s ease-in-out;
 }
