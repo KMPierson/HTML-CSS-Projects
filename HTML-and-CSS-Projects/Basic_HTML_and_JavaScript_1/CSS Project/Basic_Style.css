@@ -21,14 +21,14 @@ h1 {
         -----------------------------------------------------*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("Images/Icons/smileyface2.png")
-    color #fff;
-    float:left;
+    background-image: url("Images/Icons/smileyface1.png");
+    color: #fff;
+    float: left;
     width: 100px;
     height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border-radius:245;
+    border-radius: 245;
     cursor: pointer;
     transition: transform .5s ease-in-out;
 }
@@ -38,8 +38,8 @@ SELECT ALL SQUARES paragraph IN ARRAY
 -------------------------------------------------------------*/
 .squares:nth-child(-n+4) p{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.5em
-    font-weight 900;
+    font-size: 1.5em;
+    font-weight: 900;
     text-align : center;
     margin: 0;
     text-shadow: 2px 1px 4px rbga(0,0,0,0.8);
@@ -69,13 +69,13 @@ Indiviual squares in array
 Hover Effects
 --------------------------------------------------------------*/
 
-.container .squares:nth-child(-n+4) hover {
-    background-image: url("Images/Icons/smileyface1.png");
-    transform :scale (.5);
-    animation-name :race;
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("Images/Icons/smileyface2.png");
+    transform: scale (.5);
+    animation-name: race;
     animation-duration: 2.5s;
-    animation-iteration-count: infinite
-    animation-timing-function cubic-bezier (2.5,.2,.3,2);
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier (2.5,.2,.3,2);
 }
 
 .squares:nth-child(1):hover {
@@ -100,7 +100,7 @@ Animation effect
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("Images/Icons/smileyface1.png")
+        background-image: url("Images/Icons/smileyface2.png")
     }
     50% {
         transform: translateY(330px);
