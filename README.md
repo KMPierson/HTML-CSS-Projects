@@ -1,3 +1,4 @@
+# HTML-CSS-Projects
 HTML and CSS
 This is a collection of the HTML and CSS projects I have completed while attending the Tech Academy. I am working towards becoming a successful UX/UI Designer. These projects showcase my understanding of coding with HTML and CSS, which is useful in that field.
 
@@ -8,6 +9,7 @@ Projects
 
 
 The Space Project
+
 This is an example of a space travel company. It includes a navbar, image containers, and a form.
 
 
