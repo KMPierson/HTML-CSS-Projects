@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Matilda Jane Clothing</title>
+		<meta charset="utf-8">
+		<script src="js/one_page_website.js"></script>
+		<link rel="stylesheet" href="One_Page_Website.css">
+	</head>
+	
+	<body>
+	<!--NAV-->
+	<div class="navbar">
+		<div>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery" id="link"><li>GALLERY</li></a>
+				<a href="#media" id="link"><li>MEDIA</li></a>
+				<a href="#book" id="link"><li>BOOK</li></a>
+			</ul>
+		</div>
+	</div>
+	
+	<!--HOME-->
+	<div id="home">
+		<div>
+			<span> <h1>Maegan's Trunk</h1></span>
+		</div>
+	</div>
+	
+	<!--GALLERY-->
+	<section>
+	<div id="gallery">
+		<div class="container">
+		<h1>The Gallery</h1>
+		<div class="photo-container">
+			<div class="row">
+				<!--Photo Container 1-->
+				<div class="photo">
+					<div class="column">
+						<img src="images/thumb/thumb_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>Double the Fun Dress</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 2-->
+				<div class="photo">
+					<div class="column" >
+						<img src="./images/thumb/thumb_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>Rosetta Dress</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 3-->
+				<div class="photo">
+					<div class="column">
+						<img src="./images/thumb/thumb_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>Sweet As Pie Dress</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 4-->
+				<div class="photo">
+					<div class="column" >
+						<img src="./images/thumb/thumb_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>Savannah Pajamas</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 5-->
+				<div class="photo">
+					<div class="column">
+						<img src="./images/thumb/thumb_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>Savannah Pajamas</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 6-->
+				<div class="photo">
+					<div class="column">
+						<img src="images/thumb/thumb_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>Denise Blouse & Tammmy Top</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 7-->
+				<div class="photo">
+					<div class="column">
+						<img src="./images/thumb/thumb_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>The Lauren Dress</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 8-->
+				<div class="photo">
+					<div class="column">
+						<img src="./images/thumb/thumb_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>The Shaggy Duster</em></p>
+						</div>
+					</div>
+				</div>
+				
+				<!--Photo Container 9-->
+				<div class="photo">
+					<div class="column">
+						<img src="./images/thumb/thumb_9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="">
+						<div>
+							<h3>Click to Enlarge</h3>
+							<p><em>The Secret to Fun Fashion!</em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+
+			<div class="mySlides">
+				<div class="numbertext">1/9</div>
+				<img src="./images/thumb/thumb_1.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">2/9</div>
+				<img src="./images/thumb/thumb_2.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">3/9</div>
+				<img src="./images/thumb/thumb_3.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">4/9</div>
+				<img src="./images/thumb/thumb_4.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">5/9</div>
+				<img src="./images/thumb/thumb_5.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">6/9</div>
+				<img src="./images/thumb/thumb_6.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">7/9</div>
+				<img src="./images/thumb/thumb_7.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">8/9</div>
+				<img src="./images/thumb/thumb_8.jpg" style="width:50%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">9/9</div>
+				<img src="./images/thumb/thumb_9.jpg" style="width:50%">
+			</div>
+
+			<!--Previous and next controls-->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<!--Caption text-->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+			<!---Thumbnail image control-->
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_1.jpg" onclick="currentSlide(1)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_2.jpg" onclick="currentSlide(2)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_3.jpg" onclick="currentSlide(3)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_4.jpg" onclick="currentSlide(4)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_5.jpg" onclick="currentSlide(5)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_6.jpg" onclick="currentSlide(6)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_7.jpg" onclick="currentSlide(7)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_8.jpg" onclick="currentSlide(8)" alt="">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./images/thumb/thumb_9.jpg" onclick="currentSlide(9)" alt="">
+			</div>
+
+		</div>
+	</div>
+	</section>
+	
+	<!--VIDEO-->
+	<div id="media">
+		<div>
+			<h2>COLLECTIONS</h2>
+			<div>
+				<ul>
+				<li><a href="https://youtu.be/dQeVEKCsFmk" target="new">The Friends Forever Collection</a></li>			
+				<li><a href="https://www.youtube.com/watch?v=wUNlSZsHNpY" target="new">The Enchanted Garden Collection</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--Contact Maegan-->
+	<section>
+		<div id="book">
+			<div>
+				<h1>Book a Party!</h1>
+					<div class="reservation">
+						<h2><span>Fun, Friends and Fashion!</span></h2>
+						<p>Provide me with your contact info!</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="Preferred Date">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Book">
+								</div>
+							</form>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--FOOTER-->
+	<div>
+		<a href="http://www.matildajaneclothing.com/MaeganSpina" target="new">Maegan Spina, Trunk Keeper</a> &copy;2019
+	</div>
+	</body>
+</html>
